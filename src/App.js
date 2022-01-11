@@ -16,7 +16,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
          <div>
-           <p>Please, type any word in a field below and then close the browswer to see a confirmation</p>
+           <p>Please, type any word in a field below and then close the browser to see a confirmation</p>
          <input onChange={(event) => setValue(event.target.value)} value={value} />
          </div>
       </header>
