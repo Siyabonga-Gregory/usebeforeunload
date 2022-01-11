@@ -1,4 +1,4 @@
-# Display default pop up when user closes the browser.
+# Display default pop up when user closes the tab/browser.
 
 If need help please, don't hesitate to send me a mail 👉 huge.fuze@gmail.com
 
