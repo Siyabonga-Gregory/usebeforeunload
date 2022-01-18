@@ -4,9 +4,7 @@ import React, {useState} from 'react';
 import { useBeforeunload } from 'react-beforeunload';
 
 function App() {
-
   const [value, setValue] = useState('');
-
   useBeforeunload((event) => {
       event.preventDefault();
   });
@@ -17,7 +15,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
          <div>
            <p>Please, type any word in a field below and then close the browser to see a confirmation</p>
-         <input onChange={(event) => setValue(event.target.value)} value={value} />
+           <input onChange={(event) => setValue(event.target.value)} value={value} />
          </div>
       </header>
     </div>
